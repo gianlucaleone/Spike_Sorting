@@ -16,6 +16,7 @@ Go into the project folder (ss).
 run in Python:
 
 import scripts.SpikeSorter as SS
+
 ss=SS.SpikeSorter()
 
 ss.run(which='spike_times',ist=2,f_s=24000,f1=300,f2=3500,order=63,path='insert-your-neural-data-recordings-path-here/C_Easy1_noise005',
